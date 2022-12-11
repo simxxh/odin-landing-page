@@ -87,3 +87,83 @@ ul {
   background-color: #6D747E;
   font-size: 18px;
 }
+
+.center-one {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  padding: 40px;
+}
+
+.center-one-content {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  text-align: center;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+}
+
+.information-content {
+  display: flex;
+  gap: 45px;
+}
+
+.info-one,
+.info-two,
+.info-three,
+.info-four {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.info-image-one,
+.info-image-two,
+.info-image-three,
+.info-image-four {
+  width: 160px;
+  height: 160px;
+  border: solid 4px #3882F6;
+  border-radius: 12px;
+}
+
+.info-text-one,
+.info-text-two,
+.info-text-three,
+.info-text-four {
+  width: 150px;
+}
+
+.center-two {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+  height: 385px;
+}
+
+.center-two-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1F2937;
+}

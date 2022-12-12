@@ -137,6 +137,7 @@ ul {
 .info-text-three,
 .info-text-four {
   width: 150px;
+  color:#1F2937;
 }
 
 .center-two {
@@ -216,4 +217,14 @@ ul {
   color: #F9FAF8;
   border-color: #F9FAF8;
   font-size: 18px;
+}
+
+.footer {
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background-color: #1F2937;
+  color: #E5E7EB;
 }
